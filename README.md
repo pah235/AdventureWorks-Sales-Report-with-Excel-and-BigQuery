@@ -2,6 +2,7 @@
 This exercise demonstrates a Business Intelligence solution using Google BigQuery and Excel/Google Sheets to analyze AdventureWorks2022 sales data. It delivers a dynamic, refreshable dashboard that tracks monthly revenue, customer segmentation, product performance, and promotion impact.
 
 # 📊 Sales Report with Excel & BigQuery
+**You can view the dashboard file here:** [File Dashboard](https://1drv.ms/x/c/c8965829836d1f8c/EQEFCdCdtFZDvmzrhk7ULhABtEmVYICb9O9sJyxUhsQBbw?e=GO8QEL)
 
 <img width="683" alt="image" src="https://github.com/user-attachments/assets/bb7ae424-f2d5-4f24-ace5-0d07ecadeb30" />
 
