@@ -4,7 +4,7 @@ This exercise demonstrates a Business Intelligence solution using Google BigQuer
 # 📊 Sales Report with Excel & BigQuery
 
 **Short Description:**  
-This project demonstrates a Business Intelligence solution using Google BigQuery and Excel/Google Sheets to analyze AdventureWorks 2013 sales data. It delivers a dynamic, refreshable dashboard that tracks monthly revenue, customer segmentation, product performance, and promotion impact.
+This project demonstrates a Business Intelligence solution using Google BigQuery and Excel/Google Sheets to analyze AdventureWorks sales data. It delivers a dynamic, refreshable dashboard that tracks monthly revenue, customer segmentation, product performance, and promotion impact.
 
 ---
 
@@ -57,8 +57,9 @@ Analysts across departments use this data to clean, model, and build reports on 
    - Visuals & tables to track daily/monthly revenue and compare to the prior month  
    - Breakdowns by customer type, territory, product category, and special offers  
 3. **Data Scope**  
-   All 2013 orders for **IN** (individual) and **CS** (sales-contact) customers, including product hierarchy, territory, special offers, and line-item revenue (`LineTotal`).  
-4. **Deliverables**  
+   All 2013 orders for **IN** (individual) and **CS** (sales-contact) customers, including product hierarchy, territory, special offers, and line-item revenue (`LineTotal`).
+   Dataset: https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms
+5. **Deliverables**  
    - Month-over-prior-month revenue & growth rate  
    - Monthly trend analysis for the current year  
    - Customer-type share and growth rates  
@@ -71,7 +72,7 @@ Analysts across departments use this data to clean, model, and build reports on 
 ## 🛠️ D. Project Execution
 
 ### 1. Data Collection & Understanding
-- Downloaded AdventureWorks 2013 sample from Microsoft Learn  
+- Downloaded AdventureWorks sample from Microsoft Learn  
 - Loaded tables into Google BigQuery  
 - Explored schema and data relationships  
 
@@ -124,6 +125,7 @@ JOIN `adventure-works-analysis.AdventureWorks2022.Person_Person` AS pp2
     ON c.PersonID = pp2.BusinessEntityID
 WHERE pp2.PersonType IN ('IN', 'SC') 
   AND EXTRACT(YEAR FROM h.OrderDate) = 2013;
+```
 Connected the result set to Google Sheets / Excel for live or scheduled refresh.
 
 Used VLOOKUP, INDEX & MATCH, SUMIFS to enrich and lookup supporting data.
