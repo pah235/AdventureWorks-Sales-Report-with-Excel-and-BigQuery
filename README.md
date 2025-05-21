@@ -3,8 +3,7 @@ This exercise demonstrates a Business Intelligence solution using Google BigQuer
 
 # 📊 Sales Report with Excel & BigQuery
 
-**Short Description:**  
-This project demonstrates a Business Intelligence solution using Google BigQuery and Excel/Google Sheets to analyze AdventureWorks sales data. It delivers a dynamic, refreshable dashboard that tracks monthly revenue, customer segmentation, product performance, and promotion impact.
+<img width="683" alt="image" src="https://github.com/user-attachments/assets/bb7ae424-f2d5-4f24-ace5-0d07ecadeb30" />
 
 ---
 
@@ -133,11 +132,11 @@ Used VLOOKUP, INDEX & MATCH, SUMIFS to enrich and lookup supporting data.
 Applied Power Query to shape, clean, and load into an Excel Data Model.
 
 ### 3. Data Visualization & Dashboard Design
+<img width="583" alt="image" src="https://github.com/user-attachments/assets/973509c8-ae76-4f90-930e-9ebbf9f0bc25" />
+
 Created multiple sheets/pages for:
 
 Revenue Overview (monthly trend, variance)
-
-Customer Analysis (type share, growth)
 
 Product Performance (category/subcategory/product)
 
