@@ -8,7 +8,7 @@ This exercise demonstrates a Business Intelligence solution using Google BigQuer
 
 ---
 
-## 🅰️ A. Project Overview
+## 🗂️ A. Project Overview
 
 ### 1. Tools & Skills Used
 - **Google BigQuery & SQL Server**  
@@ -25,7 +25,7 @@ This exercise demonstrates a Business Intelligence solution using Google BigQuer
 
 ---
 
-## 🅱️ B. Business Background
+## 🏭 B. Business Background
 
 **AdventureWorks** is a U.S.-based bicycle manufacturer and retailer operating through two main channels:  
 - **IN** – Direct online sales to individual customers.  
