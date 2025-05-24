@@ -58,7 +58,7 @@ Analysts across departments use this data to clean, model, and build reports on 
    - Breakdowns by customer type, territory, product category, and special offers  
 3. **Data Scope**  
    All 2013 orders for **IN** (individual) and **CS** (sales-contact) customers, including product hierarchy, territory, special offers, and line-item revenue (`LineTotal`).
-   Dataset: https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms
+   - Dataset: [Microsoft](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
 5. **Deliverables**  
    - Month-over-prior-month revenue & growth rate  
    - Monthly trend analysis for the current year  
